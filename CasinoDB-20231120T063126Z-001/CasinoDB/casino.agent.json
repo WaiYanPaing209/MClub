@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "655a4024fd61b46ce9b7bb0c"
+  },
+  "name": "Default",
+  "commission": 0,
+  "agentCode": "default",
+  "password": "123456",
+  "role": "master",
+  "master": "",
+  "balance": 0,
+  "time": {
+    "$numberLong": "1700413476554"
+  }
+},
+{
+  "_id": {
+    "$oid": "655a40d2fd61b46ce9b7bb10"
+  },
+  "name": "Mg Mg",
+  "agentCode": "mgmg",
+  "password": "123456",
+  "time": {
+    "$numberLong": "1700413650446"
+  },
+  "commission": 0,
+  "balance": 7000,
+  "role": "agent",
+  "master": "main"
+}]

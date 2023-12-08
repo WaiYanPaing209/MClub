@@ -1,0 +1,132 @@
+<% function commaSep(n) { let x = parseInt(n); return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g,
+","); } %> <%- include("components/upper.ejs") %>
+<main class="content">
+  <div class="container-fluid p-0">
+    <h3>Play Log</h3>
+    <div class="d-flex justify-content-start align-items-center">
+      Start
+      <input
+        id="start"
+        type="date"
+        class="form-control mx-1"
+        placeholder="Start Date"
+        style="width: 150px"
+      />
+      End
+      <input
+        id="end"
+        type="date"
+        class="form-control mx-1"
+        placeholder="End Date"
+        style="width: 150px"
+      />
+      <input
+        id="username"
+        type="text"
+        class="form-control me-1"
+        placeholder="Username"
+        style="width: 150px"
+      />
+      <button class="btn btn-primary" type="button" onclick="filter()">
+        <i class="bi bi-filter"></i>
+        Filter
+      </button>
+    </div>
+    <div class="mt-3">
+      <span class="text-danger">Please select date range first to get total data!</span>
+    </div>
+    <div class="d-flex my-2">
+      <div><b>Total Cash In</b> => <span class="text-success text-lg">+ <%= Number(locals.cashIn).toLocaleString() %></span></div>
+      <div class="mx-5"><b>Total Cash Out</b> => <span class="text-danger text-lg">- <%= Number(locals.cashOut).toLocaleString() %></span></div>
+      <div><b>Total Profit</b> => 
+
+          <% if(cashProfit >= 0) { %>
+          <span class="text-success">+ <%= Number(cashProfit).toLocaleString() %> </span>
+          <% } else { %>
+          <span class="text-danger"><%= Number(cashProfit).toLocaleString() %> </span>
+          <% } %>
+      </div>
+      <div class="mx-5"><b>Slot Turn Over</b> => <span class="text-info text-lg"><%= Number(locals.turnover).toLocaleString() %></span></div>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-bordered mt-3 table-hover table-sm">
+        <tr>
+          <th>Time</th>
+          <th>Username</th>
+          <th>Game</th>
+          <th>Level</th>
+          <th>Room No</th>
+          <th>Bets</th>
+          <th>Status</th>
+          <th>Amount</th>
+          <th>Before Balance</th>
+          <th>After Balance</th>
+        </tr>
+        <% for(const item of locals.arr) { %>
+        <tr>
+          <td><%= new Date(item.time).toLocaleString() %></td>
+          <td><%= item.username %></td>
+          <td class="text-capitalize"><%= item.game %></td>
+          <td><%= item.level??"None" %></td>
+          <td><%= item.roomNo??"None" %></td>
+          <td class="text-danger">-<%= Number(item.bet).toLocaleString() %></td>
+          <td class="text-capitalize">
+            <% if(item.status == "win") { %>
+              <span class="text-white badge bg-success"><%= item.status %></span>
+            <% } else if(item.status == "deposit") { %>
+              <span class="badge bg-info"><%= item.status %></span>
+            <% } else if(item.status == "lose") { %>
+              <span class="badge bg-danger"><%= item.status %></span>
+            <% } else { %>
+              <span class="badge bg-dark"><%= item.status %></span>
+            <% } %>
+          </td>
+          <td>
+            <% if(item.status == "win" || item.status == "deposit") { %>
+            <span class="text-success">+<%= Number(item.amount).toLocaleString() %> </span>
+            <% } else { %>
+            <span class="text-danger">-<%= Number(item.amount).toLocaleString() %> </span>
+            <% } %>
+          </td>
+          <td>
+            <% if(item.status == "win" || item.status == "deposit") { %> <%= Number(Number(item.balance)-Number(item.amount)).toLocaleString() %> <% } else {
+            %> <%= Number(Number(item.balance)+Number(item.amount)).toLocaleString() %> <% } %>
+          </td>
+          <td><%= Number(Number(item.balance)).toLocaleString() %></td>
+        </tr>
+        <% } %>
+      </table>
+    </div>
+    <div class="input-group justify-content-center mb-5">
+      <% if(locals.previous){ %>
+      <a class="btn btn-primary" href="?<%= locals.previous %>">Previous</a>
+      <% } %>
+      <span class="input-group-text"><%= locals.page+1 %></span>
+      <% if(locals.next){ %>
+      <a class="btn btn-primary" href="?<%= locals.next %>">Next</a>
+      <% } %>
+    </div>
+  </div>
+</main>
+
+<script>
+  function filter() {
+    const username = document.getElementById("username").value;
+    const start = document.getElementById("start").value;
+    const end = document.getElementById("end").value;
+    let s = new Date(start).setHours(0, 0, 0, 0);
+    let e = new Date(end).setHours(23, 59, 59, 999);
+    let data = {};
+    if (username) {
+      data.username = username;
+    }
+    if (start && end) {
+      data.start = s;
+      data.end = e;
+    }
+    const query = new URLSearchParams(data).toString();
+    window.location.href = "?" + query;
+  }
+</script>
+
+<%- include("components/lower.ejs") %>

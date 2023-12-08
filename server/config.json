@@ -1,0 +1,18 @@
+{
+  "dburl": "mongodb://localhost:27017/",
+  "dbname": "casino",
+  "skm_api": "ws://localhost:9695",
+  "skm_url": "http://localhost:19695/",
+  "bugyee_api": "ws://localhost:9696",
+  "bugyee_url": "http://localhost:19696/",
+  "skm_bet_api": "ws://localhost:9697",
+  "skm_bet_url": "http://localhost:19697/",
+  "horse_bet_api": "ws://localhost:9698",
+  "horse_bet_url": "http://localhost:19698/",
+  "dragon_tiger_bet_api": "ws://localhost:9699",
+  "dragon_tiger_bet_url": "http://localhost:19699/",
+  "shweshan_api": "ws://localhost:9700",
+  "shweshan_url": "http://localhost:19700/",
+  "poker_13_api": "ws://localhost:9701",
+  "poker_13_url": "http://localhost:19701/"
+}

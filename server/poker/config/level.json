@@ -1,0 +1,38 @@
+[
+  {
+    "minAmount": 1000,
+    "taxMoney": 100,
+    "downMoney": 300,
+    "maxAmount": 100000
+  },
+  {
+    "minAmount": 3000,
+    "taxMoney": 300,
+    "downMoney": 900,
+    "maxAmount": 300000
+  },
+  {
+    "minAmount": 5000,
+    "taxMoney": 500,
+    "downMoney": 1500,
+    "maxAmount": 500000
+  },
+  {
+    "minAmount": 10000,
+    "taxMoney": 1000,
+    "downMoney": 3000,
+    "maxAmount": 10000000
+  },
+  {
+    "minAmount": 30000,
+    "taxMoney": 3000,
+    "downMoney": 9000,
+    "maxAmount": 10000000
+  },
+  {
+    "minAmount": 50000,
+    "taxMoney": 5000,
+    "downMoney": 15000,
+    "maxAmount": 10000000
+  }
+]

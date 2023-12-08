@@ -1,0 +1,179 @@
+<% function commaSep(n) { let x = parseInt(n); return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g,
+","); } %> <%- include("components/upper.ejs") %>
+
+<main class="content">
+  <div class="container-fluid p-0">
+    <h1 class="h3 mb-3">Senior Members</h1>
+    <button class="btn btn-primary" onclick="newAgent()">
+      <i class="align-middle" data-feather="plus"></i>
+      Create New
+    </button>
+    <table class="table table-bordered mt-3 table-hover table-sm">
+      <tr>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Balance</th>
+        <th>Role</th>
+        <th>Register Date</th>
+        <th>Password</th>
+        <th></th>
+      </tr>
+      <% locals.arr.forEach((item) => { %>
+      <tr>
+        <td><%= item.name %></td>
+        <td><%= item.agentCode %></td>
+        <td><%= commaSep(item.balance) %></td>
+        <td><%= item.role %></td>
+        <td><%= new Date(item.time).toLocaleString() %></td>
+        <td><%= item.password %></td>
+        <td>
+          <% if(item.agentCode != "default"){ %>
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              Actions
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a class="dropdown-item" href="#" onclick="deposit('<%= item.agentCode %>')"
+                  >Deposit</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" onclick="withdraw('<%= item.agentCode %>')"
+                  >Withdraw</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" onclick="editAgent('<%= JSON.stringify(item) %>')"
+                  >Edit Info</a
+                >
+              </li>
+              <% if (item.agentCode != "default"){ %>
+              <li>
+                <a
+                  class="get2post text-danger dropdown-item"
+                  data-query="req=delete&agentCode=<%= item.agentCode %>"
+                  data-confirm="Are you sure want to delete?"
+                >
+                  Delete
+                </a>
+              </li>
+              <% } %>
+            </ul>
+          </div>
+          <% } %>
+        </td>
+      </tr>
+      <% }); %>
+    </table>
+  </div>
+</main>
+<script src="/js/get2post.js"></script>
+<script src="/js/post.js"></script>
+<script src="/js/super-prompt.js"></script>
+<script>
+  function makeid(length) {
+    var result = "";
+    var characters = "abcdefghijklmnopqrstuvwxyz0123456789";
+    var charactersLength = characters.length;
+    for (var i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+  }
+
+  function deposit(agentCode) {
+    superPrompt(
+      {
+        title: "Deposit",
+        fields: [
+          {
+            label: "Amount",
+            name: "amount",
+            type: "text",
+          },
+        ],
+      },
+      (result) => {
+        result.req = "deposit";
+        result.agentCode = agentCode;
+        post("", result);
+      }
+    );
+  }
+
+  function withdraw(agentCode) {
+    superPrompt(
+      {
+        title: "Withdraw",
+        fields: [
+          {
+            label: "Amount",
+            name: "amount",
+            type: "text",
+          },
+        ],
+      },
+      (result) => {
+        result.req = "withdraw";
+        result.agentCode = agentCode;
+        post("", result);
+      }
+    );
+  }
+
+  function newAgent() {
+    superPrompt(
+      {
+        title: "Create New Agent",
+        fields: [
+          {
+            label: "Name",
+            name: "name",
+            type: "text",
+          },
+          {
+            label: "Username",
+            name: "agentCode",
+            type: "text",
+          },
+        ],
+      },
+      (result) => {
+        result.req = "new";
+        result.password = makeid(6);
+        post("", result);
+      }
+    );
+  }
+
+  function editAgent(raw) {
+    const item = JSON.parse(raw);
+    superPrompt(
+      {
+        title: "Edit Agent",
+        fields: [
+          {
+            label: "Name",
+            name: "name",
+            type: "text",
+            value: item.name,
+          },
+          {
+            label: "Password",
+            name: "password",
+            type: "text",
+            value: item.password,
+          },
+        ],
+      },
+      (result) => {
+        result.req = "edit";
+        result.agentCode = item.agentCode;
+        post("", result);
+      }
+    );
+  }
+</script>
+
+<%- include("components/lower.ejs") %>

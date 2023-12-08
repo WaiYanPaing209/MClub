@@ -1,0 +1,73 @@
+
+
+ 11/23/2023, 1:08:30 PM :: WebSocket server listening at port 9697
+
+ 11/23/2023, 1:08:30 PM :: Internal server is listening at PORT 19697
+
+ 11/23/2023, 1:08:38 PM :: New player join : ID - susu, Balance - 77775
+
+ 11/23/2023, 1:08:39 PM :: Client connected!
+
+ 11/23/2023, 1:08:39 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"1oeNwsDtyr"}}
+
+ 11/23/2023, 1:09:04 PM :: From Client : {"head":"bet","body":{"amount":100,"index":1}}
+
+ 11/23/2023, 1:09:04 PM :: From Client : {"head":"bet","body":{"amount":100,"index":1}}
+
+ 11/23/2023, 1:09:04 PM :: From Client : {"head":"bet","body":{"amount":100,"index":1}}
+
+ 11/23/2023, 1:09:04 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 11/23/2023, 1:09:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 11/23/2023, 1:09:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 11/23/2023, 1:09:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 11/23/2023, 1:09:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 11/23/2023, 1:09:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 11/23/2023, 1:09:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 11/23/2023, 1:09:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 11/23/2023, 1:09:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 11/23/2023, 1:09:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 11/23/2023, 1:34:10 PM :: New player join : ID - susu, Balance - 77775
+
+ 11/23/2023, 1:34:11 PM :: Client connected!
+
+ 11/23/2023, 1:34:11 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"JNCqaYzqQb"}}
+
+ 11/23/2023, 1:34:45 PM :: New player join : ID - susu, Balance - 77775
+
+ 11/23/2023, 1:34:45 PM :: Client connected!
+
+ 11/23/2023, 1:34:45 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"doCpzId5k3"}}
+
+ 11/23/2023, 2:49:19 PM :: New player join : ID - susu, Balance - 77775
+
+ 11/23/2023, 2:49:20 PM :: Client connected!
+
+ 11/23/2023, 2:49:20 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"eVndS9To2B"}}
+
+ 11/23/2023, 3:11:20 PM :: New player join : ID - susu, Balance - 77775
+
+ 11/23/2023, 3:11:20 PM :: Client connected!
+
+ 11/23/2023, 3:11:20 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"dxA6JkExOt"}}
+
+ 11/23/2023, 4:33:55 PM :: New player join : ID - susu, Balance - 77775
+
+ 11/23/2023, 4:33:56 PM :: Client connected!
+
+ 11/23/2023, 4:33:56 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"xxVi3VExZO"}}
+
+ 11/23/2023, 4:56:53 PM :: New player join : ID - susu, Balance - 77775
+
+ 11/23/2023, 4:56:54 PM :: Client connected!
+
+ 11/23/2023, 4:56:54 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"PvrlSQvWkS"}}

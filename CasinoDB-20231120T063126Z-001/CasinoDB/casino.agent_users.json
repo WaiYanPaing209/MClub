@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "655a40d2fd61b46ce9b7bb11"
+  },
+  "username": "mgmg",
+  "agentCode": "mgmg",
+  "password": "123456",
+  "role": "agent",
+  "lastActiveTime": {
+    "$numberLong": "1700453745958"
+  },
+  "sessionKey": 14797
+}]

@@ -1,0 +1,116 @@
+<% function commaSep(n) { let x = parseInt(n); return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g,
+","); } %> <% function formatDate(arg){ const d = arg.toString(); const month = d.slice(4,6); const
+year = d.slice(0,4); return [year,month].join("-"); } %> <%- include("components/upper.ejs") %>
+
+<main class="content">
+  <div class="container-fluid p-0">
+    <h1 class="h3 mb-3">Senior Monthly Status</h1>
+    <div class="d-flex justify-content-start align-items-center">
+      Start
+      <input
+        id="start"
+        type="month"
+        class="form-control mx-1"
+        placeholder="Start Date"
+        style="width: 150px"
+      />
+      End
+      <input
+        id="end"
+        type="month"
+        class="form-control mx-1"
+        placeholder="End Date"
+        style="width: 150px"
+      />
+      <input
+        id="username"
+        type="text"
+        class="form-control me-1"
+        placeholder="Username"
+        style="width: 150px"
+      />
+      <button class="btn btn-primary" type="button" onclick="filter()">
+        <i class="bi bi-filter"></i>
+        Filter
+      </button>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-bordered mt-3 table-hover table-sm">
+        <tr>
+          <th>Date</th>
+          <th>Agent</th>
+          <th>Deposit</th>
+          <th>Withdraw</th>
+          <th>Profit</th>
+          <th>New User</th>
+          <th>From Parent</th>
+          <th>To Parent</th>
+          <th>From Children</th>
+          <th>To Children</th>
+        </tr>
+        <% locals.arr.forEach((item) => { %>
+        <tr>
+          <td><%= formatDate(item.time) %></td>
+          <td><a href="/master_monthly?agentMaster=<%= item.agentCode %>"><%= item.agentCode %></a></td>
+          <td><%= commaSep(item.deposit) %></td>
+          <td><%= commaSep(item.withdraw) %></td>
+          <td>
+            <% const profit = item.deposit - item.withdraw; if(profit > 0){ %>
+            <span class="text-success">+<%= commaSep(profit) %></span>
+            <% } else { %>
+            <span class="text-danger"><%= commaSep(profit) %></span>
+            <% } %>
+          </td>
+          <td><%= commaSep(item.newUser) %></td>
+          <td><%= commaSep(item.fromParent) %></td>
+          <td><%= commaSep(item.toParent) %></td>
+          <td><%= commaSep(item.fromChildren) %></td>
+          <td><%= commaSep(item.toChildren) %></td>
+        </tr>
+        <% }); %>
+      </table>
+      <div class="input-group justify-content-center mb-5">
+        <% if(locals.previous){ %>
+        <a class="btn btn-primary" href="?<%= locals.previous %>">Previous</a>
+        <% } %>
+        <span class="input-group-text"><%= locals.page+1 %></span>
+        <% if(locals.next){ %>
+        <a class="btn btn-primary" href="?<%= locals.next %>">Next</a>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+  function filter() {
+    const username = document.getElementById("username").value;
+    const start = document.getElementById("start").value;
+    const end = document.getElementById("end").value;
+    const s = getDate(start);
+    let tmp = new Date(end);
+    tmp.setDate(tmp.getDate() + 1);
+    const e = getDate(tmp);
+    let data = {};
+    if (username) {
+      data.username = username;
+    }
+    if (start && end) {
+      data.start = s;
+      data.end = e;
+    }
+    const query = new URLSearchParams(data).toString();
+    window.location.href = "?" + query;
+  }
+
+  function getDate(t) {
+    var d = new Date(t),
+      month = "" + (d.getMonth() + 1),
+      year = d.getFullYear();
+
+    if (month.length < 2) month = "0" + month;
+    return parseInt([year, month].join(""));
+  }
+</script>
+
+<%- include("components/lower.ejs") %>

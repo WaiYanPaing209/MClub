@@ -1,0 +1,8 @@
+{
+  "wsPort": 9695,
+  "httpPort": 19695,
+  "logFilePath": "tmp/log.txt",
+  "accountUrl": "http://localhost:19690/",
+  "dburl": "mongodb://127.0.0.1:27017/",
+  "dbname": "zawgyi"
+}

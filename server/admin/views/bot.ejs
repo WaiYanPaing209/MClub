@@ -1,0 +1,71 @@
+<%- include("components/upper.ejs") %>
+<main class="content">
+  <div class="container-fluid p-0">
+    <h1 class="h3 mb-3">Bot Management</h1>
+    <button class="btn btn-primary me-1" onclick="create()">
+      <i class="align-middle" data-feather="plus"></i>
+      New Bot
+    </button>
+    <button class="btn btn-danger get2post" data-query="update=1">
+      <i class="align-middle" data-feather="upload"></i>
+      Update
+    </button>
+    <table class="table table-bordered mt-3 table-hover table-sm">
+      <tr>
+        <th>No.</th>
+        <th>Nickname</th>
+        <th></th>
+      </tr>
+      <% for (let i = 0; i < locals.arr.length; i++) { const item = locals.arr[i]; %>
+      <tr>
+        <td><%= i+1 %></td>
+        <td><%= item.nickname %></td>
+        <td>
+          <a
+            class="btn-delete get2post"
+            data-confirm="Are sure want to delete?"
+            data-query="delete=<%= i %>"
+          >
+            <i class="bi bi-trash"></i>
+          </a>
+        </td>
+      </tr>
+      <% } %>
+    </table>
+  </div>
+</main>
+
+<script src="/js/get2post.js"></script>
+<script src="/js/post.js"></script>
+<script src="/js/super-prompt.js"></script>
+<script>
+  function create() {
+    superPrompt(
+      {
+        title: "Create New Bot",
+        fields: [
+          {
+            label: "Nickname",
+            name: "nickname",
+            type: "text",
+          },
+          {
+            label: "Gender",
+            name: "gender",
+            type: "select",
+            options: ["male", "female"],
+          },
+        ],
+      },
+      (result) => {
+        let profile = Math.floor(Math.random() * 6);
+        if (result.gender == "female") profile += 6;
+        result.profile = profile;
+        result.req = "new";
+        post("", result);
+      }
+    );
+  }
+</script>
+
+<%- include("components/lower.ejs") %>

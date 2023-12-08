@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "655a40adfd61b46ce9b7bb0f"
+  },
+  "commission": 0,
+  "newUser": 1,
+  "activeUser": 0,
+  "deposit": 0,
+  "withdraw": 0,
+  "fromParent": 0,
+  "toParent": 0,
+  "fromChildren": 0,
+  "toChildren": 0,
+  "time": 202311,
+  "agentCode": "default",
+  "agentRole": "master",
+  "agentMaster": ""
+},
+{
+  "_id": {
+    "$oid": "655a40e4fd61b46ce9b7bb13"
+  },
+  "commission": 0,
+  "newUser": 1,
+  "activeUser": 0,
+  "deposit": 3000,
+  "withdraw": 0,
+  "fromParent": 10000,
+  "toParent": 0,
+  "fromChildren": 0,
+  "toChildren": 0,
+  "time": 202311,
+  "agentCode": "mgmg",
+  "agentRole": "agent",
+  "agentMaster": "main"
+}]

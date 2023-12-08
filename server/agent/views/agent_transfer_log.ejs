@@ -1,0 +1,96 @@
+<% function commaSep(n) { let x = parseInt(n); return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g,
+","); } %> <%- include("components/upper.ejs") %> <% const status = ['Waiting approval',
+'Approved','Canceled']; %>
+<main class="content">
+  <div class="container-fluid p-0">
+    <h1 class="h3 mb-3">Agent Transfer Log</h1>
+    <div class="d-flex justify-content-start align-items-center">
+      Start
+      <input
+        id="start"
+        type="date"
+        class="form-control mx-1"
+        placeholder="Start Date"
+        style="width: 150px"
+      />
+      End
+      <input
+        id="end"
+        type="date"
+        class="form-control mx-1"
+        placeholder="End Date"
+        style="width: 150px"
+      />
+      <input
+        id="username"
+        type="text"
+        class="form-control me-1"
+        placeholder="Username"
+        style="width: 150px"
+      />
+      <button class="btn btn-primary" type="button" onclick="filter()">
+        <i class="bi bi-filter"></i>
+        Filter
+      </button>
+    </div>
+    <hr />
+    Cash In : <b><%= locals.cashIn %></b> | Cash Out : <b><%= locals.cashOut %></b> | Win/Lose :
+    <b><%= locals.cashIn + locals.cashOut %></b>
+    <hr />
+    <table class="table table-bordered mt-3 table-hover table-sm">
+      <tr>
+        <th>Time</th>
+        <th>Username (to)</th>
+        <th>Master (from)</th>
+        <th>Amount</th>
+        <th>Balance</th>
+      </tr>
+      <% locals.arr.forEach((item) => { %>
+      <tr>
+        <td><%= new Date(item.time).toLocaleString() %></td>
+        <td><%= item.agentCode %></td>
+        <td><%= item.from %></td>
+        <td>
+          <% if(item.amount > 0){ %>
+          <span class="text-success">+<%= item.amount %></span>
+          <% } else { %>
+          <span class="text-danger"><%= item.amount %></span>
+          <% } %>
+        </td>
+        <td><%= commaSep(item.agentBalance) %></td>
+      </tr>
+      <% }); %>
+    </table>
+    <div class="input-group justify-content-center mb-5">
+      <% if(locals.previous){ %>
+      <a class="btn btn-primary" href="?<%= locals.previous %>">Previous</a>
+      <% } %>
+      <span class="input-group-text"><%= locals.page+1 %></span>
+      <% if(locals.next){ %>
+      <a class="btn btn-primary" href="?<%= locals.next %>">Next</a>
+      <% } %>
+    </div>
+  </div>
+</main>
+
+<script>
+  function filter() {
+    const username = document.getElementById("username").value;
+    const start = document.getElementById("start").value;
+    const end = document.getElementById("end").value;
+    let s = new Date(start).setHours(0, 0, 0, 0);
+    let e = new Date(end).setHours(23, 59, 59, 999);
+    let data = {};
+    if (username) {
+      data.username = username;
+    }
+    if (start && end) {
+      data.start = s;
+      data.end = e;
+    }
+    const query = new URLSearchParams(data).toString();
+    window.location.href = "?" + query;
+  }
+</script>
+
+<%- include("components/lower.ejs") %>

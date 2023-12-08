@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "655a4167525d072d3216a681"
+  },
+  "nickname": "susu",
+  "username": "susu",
+  "agentCode": "mgmg",
+  "password": "h8vljw",
+  "balance": 3000,
+  "profile": 0,
+  "time": {
+    "$numberLong": "1700413799504"
+  }
+}]

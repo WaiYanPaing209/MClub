@@ -1,0 +1,9 @@
+[
+  { "minAmount": 1000, "betAmount": 100, "maxAmount": 2000000000 },
+  { "minAmount": 3000, "betAmount": 300, "maxAmount": 500000000 },
+  { "minAmount": 5000, "betAmount": 500, "maxAmount": 2500000000 },
+  { "minAmount": 10000, "betAmount": 1000, "maxAmount": 3000000000 },
+  { "minAmount": 30000, "betAmount": 3000, "maxAmount": 500000000 },
+  { "minAmount": 50000, "betAmount": 5000, "maxAmount": 1000000000 },
+  { "minAmount": 100000, "betAmount": 10000, "maxAmount": 1000000000 }
+]

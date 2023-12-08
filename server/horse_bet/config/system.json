@@ -1,0 +1,6 @@
+{
+  "wsPort": 9698,
+  "httpPort": 19698,
+  "accountUrl": "http://localhost:19690/",
+  "logFilePath": "tmp/log.txt"
+}

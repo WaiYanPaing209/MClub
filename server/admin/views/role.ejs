@@ -1,0 +1,123 @@
+<%- include("components/upper.ejs") %>
+
+<main class="content">
+  <div class="container-fluid p-0">
+    <h1 class="h3 mb-3">Role</h1>
+    <button class="btn btn-primary" onclick="create()">
+      <i class="align-middle" data-feather="plus"></i>
+      New Role
+    </button>
+    <div class="table-responsive">
+      <table class="table table-bordered mt-3 table-hover table-sm">
+        <tr>
+          <th>Username</th>
+          <th>Password</th>
+          <th>Role</th>
+          <th></th>
+        </tr>
+        <% locals.arr.forEach((item) => { %>
+        <tr>
+          <td><%= item.username %></td>
+          <td><%= item.password %></td>
+          <td><%= item.role %></td>
+          <td>
+            <a class="text-primary" onclick="edit('<%= JSON.stringify(item) %>')"
+              ><i class="bi bi-pencil-square"></i
+            ></a>
+            &nbsp;&nbsp;
+            <a
+              class="btn-delete text-danger get2post"
+              data-confirm="Are sure want to delete?"
+              data-query="delete=<%= item._id %>"
+            >
+              <i class="bi bi-trash"></i>
+            </a>
+          </td>
+        </tr>
+        <% }); %>
+      </table>
+    </div>
+  </div>
+</main>
+
+<script src="/js/post.js"></script>
+<script src="/js/get2post.js"></script>
+<script src="/js/super-prompt.js"></script>
+<script>
+  function makeid(length) {
+    var result = "";
+    var characters = "abcdefghijklmnopqrstuvwxyz0123456789";
+    var charactersLength = characters.length;
+    for (var i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+  }
+
+  function create() {
+    superPrompt(
+      {
+        title: "Create New Role",
+        fields: [
+          {
+            label: "Username",
+            name: "username",
+            type: "text",
+          },
+          {
+            label: "Password",
+            name: "password",
+            type: "text",
+          },
+          {
+            label: "Role",
+            name: "role",
+            type: "select",
+            options: ["head", "manager", "staff"],
+          },
+        ],
+      },
+      (result) => {
+        result.req = "new";
+        post("", result);
+      }
+    );
+  }
+
+  function edit(raw) {
+    const item = JSON.parse(raw);
+    superPrompt(
+      {
+        title: "Edit Agent",
+        fields: [
+          {
+            label: "Username",
+            name: "username",
+            type: "text",
+            value: item.username,
+          },
+          {
+            label: "Password",
+            name: "password",
+            type: "text",
+            value: item.password,
+          },
+          {
+            label: "Role",
+            name: "role",
+            type: "select",
+            options: ["head", "manager", "staff"],
+            value: item.role,
+          },
+        ],
+      },
+      (result) => {
+        result.req = "edit";
+        result._id = item._id;
+        post("", result);
+      }
+    );
+  }
+</script>
+
+<%- include("components/lower.ejs") %>

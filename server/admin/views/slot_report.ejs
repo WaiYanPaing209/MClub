@@ -1,0 +1,127 @@
+<%- include("components/upper.ejs") %>
+<link
+  type="text/css"
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/alumuko/vanilla-datetimerange-picker@latest/dist/vanilla-datetimerange-picker.css"
+/>
+<main class="content">
+  <div class="container-fluid p-0">
+    <h1 class="h3 mb-3">Slot Report</h1>
+    <div class="d-flex justify-content-start align-items-center mt-4 mb-3">
+      Start
+      <input
+        id="start"
+        type="date"
+        class="form-control mx-1"
+        placeholder="Start Date"
+        style="width: 150px"
+      />
+      End
+      <input
+        id="end"
+        type="date"
+        class="form-control mx-1"
+        placeholder="End Date"
+        style="width: 150px"
+      />
+      <button class="btn btn-primary mx-2" type="button" onclick="filter()">
+        <i class="bi bi-filter"></i>
+        Filter
+      </button>
+    </div>
+
+    <div class="mb-4 mt-4 border p-3" style="border-radius: 10px !important;">
+      Formula =>  <br> &emsp;&emsp;&emsp;&emsp;&emsp;<span class="text-success">Total Slot Bet Amount</span> - <span class="text-danger">Total Slot Won Amount</span> = Total Profit from Slot
+                  <br> Then
+                  <br> &emsp;&emsp;&emsp;&emsp;&emsp;<span class="text-danger h4">4 %</span> Total Profit from Slot = <span class="text-success h5">Final Payment</span>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="shadow rounded p-4 mb-2" style="border-radius: 10px !important; border: 2px solid black;">
+          <h4>Total Bet Amount</h4>
+          <hr />
+          Total : <b><span class="text-success h4" id="totalBet"></span></b>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="shadow rounded p-4 mb-2" style="border-radius: 10px !important; border: 2px solid black;">
+          <h4>Total Won Amount</h4>
+          <hr />
+          Total : <b><span class="text-danger h4" id="totalWon"></span></b>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="shadow rounded p-4 mb-2" style="border-radius: 10px !important; border: 2px solid black;">
+          <h4>Total Profit Amount</h4>
+          <hr />
+          Total : <b><span class="text-success h4" id="totalProfit"></span></b>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="shadow rounded p-4 mb-2" style="border-radius: 10px !important; border: 2px solid black;">
+          <h4><span class="text-success">4 %</span> &nbsp;of Total Slot Profit</h4>
+          <hr />
+          Total : <b><span class="h4" id="percentProfit"></ class="h4"></b>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<script>
+  window.addEventListener("load", function (event) {
+    const today = new Date();
+    const startDate = new Date(today.getFullYear(), today.getMonth(), 1).getTime();
+    const endDate = new Date(today.getFullYear(), today.getMonth() + 1, 0).getTime();
+    fetchInfo(startDate, endDate);
+  });
+
+  function filter() {
+    const start = document.getElementById("start").value;
+    const end = document.getElementById("end").value;
+    const ds = new Date(start);
+    const de = new Date(end);
+    const s = ds.getTime();
+    const e = de.getTime();
+    fetchInfo(s, e);
+  }
+
+  function fetchInfo(start, end) {
+    fetch(`/slot_report/info?start=${start}&end=${end}`, {
+      method: "GET",
+      headers: {
+        Accept: "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((response) => {
+        for (const [key, value] of Object.entries(response)) {
+          const element = document.getElementById(key);
+          element.innerHTML = commaSep(value);
+          
+          if(value < 0) {
+            element.classList.add('text-danger');
+          }
+        }
+      });
+  }
+
+  function getDate(t) {
+    var d = new Date(t),
+      month = "" + (d.getMonth() + 1),
+      day = "" + d.getDate(),
+      year = d.getFullYear();
+
+    if (month.length < 2) month = "0" + month;
+    if (day.length < 2) day = "0" + day;
+
+    return parseInt([year, month, day].join(""));
+  }
+
+  function commaSep(n) {
+    let x = parseInt(n);
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+</script>
+
+<%- include("components/lower.ejs") %>

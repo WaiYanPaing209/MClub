@@ -1,0 +1,5 @@
+{
+  "apiPort": 9690,
+  "commPort": 19690,
+  "lockDelay": 3
+}

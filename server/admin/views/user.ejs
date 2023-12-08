@@ -1,0 +1,256 @@
+<% function commaSep(n) { let x = parseInt(n); return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g,
+","); } %> <%- include("components/upper.ejs") %> <% const status = ['Waiting approval',
+'Approved','Canceled']; %>
+<main class="content">
+  <div class="container-fluid p-0">
+    <h1 class="h3 mb-3">Users</h1>
+    <% if(locals.err){ %>
+    <div class="w-100 px-3 py-2 mb-2 rounded border shadow bg-warning"><%= locals.err %></div>
+    <% } %>
+    <div class="d-flex justify-content-between align-items-center">
+      <button class="btn btn-primary" onclick="create()">
+        <i class="bi bi-plus-lg"></i>
+        New User
+      </button>
+      <select class="form-select" id="sort" style="width: 200px">
+        <option value="user_desc">User (new to old)</option>
+        <option value="user_asc">User (old to new)</option>
+        <option value="balance_desc">Balance (high to low)</option>
+        <option value="balance_asc">Balance (low to high)</option>
+      </select>
+      <div class="input-group" style="width: 200px">
+        <input id="search-input" type="text" class="form-control" placeholder="Username" />
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button" onclick="search()">
+            <i class="bi bi-search"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-bordered mt-3 table-hover table-sm mb-5">
+        <% let i = locals.page * locals.pageLimit; %>
+        <tr>
+          <th></th>
+          <th>Username</th>
+          <th>Balance</th>
+          <th>Agent</th>
+          <th>Date</th>
+          <th>Password</th>
+          <th>Win Rate</th>
+          <th>Lock</th>
+          <th></th>
+        </tr>
+        <% locals.arr.forEach((item) => { %>
+        <tr>
+          <td><%= ++i; %></td>
+          <td>
+            <%= item.username %><br /><span class="text-secondary">(<%= item.nickname %>)</span>
+          </td>
+          <td class="text-success"><%= commaSep(item.balance) %></td>
+          <td class="text-danger"><%= item.agentCode %></td>
+          <td><%= new Date(item.time).toLocaleString() %></td>
+          <td><%= item.password %></td>
+          <td><%= item.winRate ?? 0 %>%</td>
+          <td>
+            <% if(item.accountLock){ %>
+            <a class="get2post" data-query="username=<%= item.username; %>&unlock=1">
+              <i class="bi bi-person-x text-danger"></i>
+            </a>
+            <% } else { %>
+            <a class="get2post" data-query="username=<%= item.username; %>&lock=1">
+              <i class="bi bi-person-check text-success"></i>
+            </a>
+            <% } %>
+          </td>
+          <td>
+            <div class="dropdown">
+              <button
+                class="btn btn-primary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+              >
+                Actions
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <!-- <li>
+                  <a class="dropdown-item" href="#" onclick="deposit('<%= item.username %>')"
+                    >Deposit</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" onclick="withdraw('<%= item.username %>')"
+                    >Withdraw</a
+                  >
+                </li> -->
+                <li>
+                  <a class="dropdown-item" href="/user_activity/<%= item.username %>">Activity</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" onclick="edit(<%= JSON.stringify(item) %>)"
+                    >Edit Info</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    onclick="editWinRate('<%= item.username; %>',<%= item.winRate ?? 0 %>)"
+                    >Edit Win Rate</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item get2post"
+                    href="#"
+                    data-query="remove=<%= item.username %>"
+                    data-confirm="Are you sure want to remove?"
+                    >Remove</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+        <% }); %>
+      </table>
+    </div>
+    <div class="input-group justify-content-center mb-5">
+      <% if(locals.page != 0){ %>
+      <a class="btn btn-primary" href="?p=<%= locals.page-1 %>">Previous</a>
+      <% } %>
+      <span class="input-group-text"><%= locals.page+1 %></span>
+      <% if(locals.page < locals.lastPage){ %>
+      <a class="btn btn-primary" href="?p=<%= locals.page+1 %>">Next</a>
+      <% } %>
+    </div>
+  </div>
+</main>
+
+<script src="/js/get2post.js"></script>
+<script src="/js/post.js"></script>
+<script src="/js/super-prompt.js"></script>
+<script>
+  function deposit(username) {
+    superPrompt(
+      {
+        title: "Deposit",
+        fields: [
+          {
+            label: "Amount",
+            name: "amount",
+            type: "number",
+          },
+        ],
+      },
+      (result) => {
+        result.deposit = 1;
+        result.username = username;
+        post("", result);
+      }
+    );
+  }
+
+  function withdraw(username) {
+    superPrompt(
+      {
+        title: "Withdraw",
+        fields: [
+          {
+            label: "Amount",
+            name: "amount",
+            type: "number",
+          },
+        ],
+      },
+      (result) => {
+        result.withdraw = 1;
+        result.username = username;
+        post("", result);
+      }
+    );
+  }
+
+  function create() {
+    superPrompt(
+      {
+        title: "Create New User",
+        fields: [
+          {
+            label: "Username",
+            name: "username",
+            type: "text",
+          },
+        ],
+      },
+      (result) => {
+        result.create = "new";
+        post("", result);
+      }
+    );
+  }
+
+  function edit(item) {
+    superPrompt(
+      {
+        title: "Edit User",
+        fields: [
+          {
+            label: "Username",
+            name: "username",
+            type: "text",
+            value: item.username,
+          },
+          {
+            label: "Nickname",
+            name: "nickname",
+            type: "text",
+            value: item.nickname,
+          },
+          {
+            label: "Password",
+            name: "password",
+            type: "text",
+            value: item.password,
+          },
+        ],
+      },
+      (result) => {
+        result.edit = item._id;
+        post("", result);
+      }
+    );
+  }
+
+  function editWinRate(username, winRate) {
+    superPrompt(
+      {
+        title: "Edit Win Rate",
+        fields: [
+          {
+            label: "Win Rate",
+            name: "winRate",
+            type: "number",
+            value: winRate,
+          },
+        ],
+      },
+      (result) => {
+        result.username = username;
+        post("", result);
+      }
+    );
+  }
+
+  function search() {
+    let username = document.getElementById("search-input").value;
+    window.location.href = `/user?search=${username}`;
+  }
+
+  const selSort = document.getElementById("sort");
+  selSort.addEventListener("change", () => {
+    const v = selSort.value;
+    window.location.href = `?sort=${v}`;
+  });
+</script>
+
+<%- include("components/lower.ejs") %>

@@ -1,0 +1,30 @@
+<%- include("components/upper.ejs") %>
+<main class="content">
+  <div class="container-fluid p-0">
+    <h2 class="mb-3">Setting</h2>
+    <% if(locals.msg){ %>
+    <div class="bg-warning border rounded p-2"><%= locals.msg %></div>
+    <% } %>
+    <hr />
+    <h3>Change Password</h3>
+    <form method="post" action="">
+      <input
+        type="text"
+        name="old"
+        class="form-control mb-1"
+        placeholder="Old Password"
+        style="max-width: 200px"
+      />
+      <input
+        type="text"
+        name="new"
+        class="form-control mb-1"
+        placeholder="New Password"
+        style="max-width: 200px"
+      />
+      <input type="hidden" name="head" value="change password" />
+      <input type="submit" class="btn btn-primary" style="max-width: 200px" value="Submit" />
+    </form>
+  </div>
+</main>
+<%- include("components/lower.ejs") %>

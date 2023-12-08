@@ -1,0 +1,112 @@
+<% function commaSep(n) { let x = parseInt(n); return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g,
+","); } %> <%- include("components/upper.ejs") %> <% const status = ['Waiting approval',
+'Approved','Canceled']; %>
+<main class="content">
+  <div class="container-fluid p-0">
+    <h1 class="h3 mb-3">User Transfer Log</h1>
+    <div class="d-flex justify-content-start align-items-center">
+      Start
+      <input
+        id="start"
+        type="date"
+        class="form-control mx-1"
+        placeholder="Start Date"
+        style="width: 150px"
+      />
+      End
+      <input
+        id="end"
+        type="date"
+        class="form-control mx-1"
+        placeholder="End Date"
+        style="width: 150px"
+      />
+      <input
+        id="username"
+        type="text"
+        class="form-control mx-1"
+        placeholder="Username"
+        style="width: 150px"
+      />
+      <input
+        id="agentCode"
+        type="text"
+        class="form-control me-1"
+        placeholder="Agent Code"
+        style="width: 150px"
+      />
+      <button class="btn btn-primary" type="button" onclick="filter()">
+        <i class="bi bi-filter"></i>
+        Filter
+      </button>
+    </div>
+    <hr />
+    Cash In : <b class="text-success"><%= locals.cashIn %></b> | Cash Out :
+    <b class="text-danger"><%= locals.cashOut %></b> | Win/Lose :
+    <b><%= locals.cashIn + locals.cashOut %></b>
+    <hr />
+    <table class="table table-bordered mt-3 table-hover table-sm">
+      <tr>
+        <th></th>
+        <th>Time</th>
+        <th>Username (to)</th>
+        <th>Agent (from)</th>
+        <th>Amount</th>
+        <th>Before Balance</th>
+        <th>After Balance</th>
+      </tr>
+      <% for(const [i,item] of locals.arr.entries()) { %>
+      <tr>
+        <td><%= i+1 %></td>
+        <td><%= new Date(item.time).toLocaleString() %></td>
+        <td><%= item.username %></td>
+        <td><%= item.agentCode %></td>
+        <td>
+          <% if(item.amount > 0){ %>
+          <span class="text-success">+<%= item.amount %></span>
+          <% } else { %>
+          <span class="text-danger"><%= item.amount %></span>
+          <% } %>
+        </td>
+        <td><%= commaSep(item.userBalance-item.amount) %></td>
+        <td><%= commaSep(item.userBalance) %></td>
+      </tr>
+      <% } %>
+    </table>
+    <div class="input-group justify-content-center mb-5">
+      <% if(locals.previous){ %>
+      <a class="btn btn-primary" href="?<%= locals.previous %>">Previous</a>
+      <% } %>
+      <span class="input-group-text"><%= locals.page+1 %></span>
+      <% if(locals.next){ %>
+      <a class="btn btn-primary" href="?<%= locals.next %>">Next</a>
+      <% } %>
+    </div>
+  </div>
+</main>
+
+<script>
+  function filter() {
+    const username = document.getElementById("username").value;
+    const agentCode = document.getElementById("agentCode").value;
+    const start = document.getElementById("start").value;
+    const end = document.getElementById("end").value;
+    let s = new Date(start).setHours(0, 0, 0, 0);
+    let e = new Date(end).setHours(23, 59, 59, 999);
+    let data = {};
+    if (username) {
+      data.username = username;
+    }
+    if (agentCode) {
+      data.agentCode = agentCode;
+    }
+    if (start && end) {
+      data.start = s;
+      data.end = e;
+    }
+    const query = new URLSearchParams(data).toString();
+    window.location.href = "?" + query;
+  }
+</script>
+
+<%- include("components/lower.ejs") %>

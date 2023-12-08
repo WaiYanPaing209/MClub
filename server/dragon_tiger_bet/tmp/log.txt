@@ -1,0 +1,3089 @@
+
+
+ 11/22/2023, 1:33:07 PM :: WebSocket server listening at port 9699
+
+ 11/22/2023, 1:33:07 PM :: Internal server is listening at PORT 19699
+
+ 11/22/2023, 1:34:22 PM :: New player join : ID - susu, Balance - 14450
+
+ 11/22/2023, 1:34:22 PM :: Client connected!
+
+ 11/22/2023, 1:34:22 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"HiqvBey2ur"}}
+
+ 11/22/2023, 1:34:22 PM :: Handshake from client : [object Object]
+
+ 11/22/2023, 1:34:35 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 11/22/2023, 1:34:35 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 11/22/2023, 1:34:37 PM :: From Client : {"head":"bet","body":{"amount":100,"index":1}}
+
+ 11/22/2023, 1:34:37 PM :: From Client : {"head":"bet","body":{"amount":100,"index":1}}
+
+ 11/22/2023, 1:34:38 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 11/22/2023, 1:34:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 11/22/2023, 1:34:47 PM :: Player disconnect : susu
+
+ 11/23/2023, 12:59:16 PM :: WebSocket server listening at port 9699
+
+ 11/23/2023, 12:59:16 PM :: Internal server is listening at PORT 19699
+
+ 11/23/2023, 12:59:39 PM :: New player join : ID - susu, Balance - 77775
+
+ 11/23/2023, 12:59:40 PM :: Client connected!
+
+ 11/23/2023, 12:59:40 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"Uj4942GN07"}}
+
+ 11/23/2023, 12:59:40 PM :: Handshake from client : [object Object]
+
+ 11/23/2023, 12:59:58 PM :: Player disconnect : susu
+
+ 11/23/2023, 4:34:05 PM :: New player join : ID - susu, Balance - 77775
+
+ 11/23/2023, 4:34:05 PM :: Client connected!
+
+ 11/23/2023, 4:34:05 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"lF5rgMaSbn"}}
+
+ 11/23/2023, 4:34:05 PM :: Handshake from client : [object Object]
+
+ 11/23/2023, 4:34:07 PM :: Player disconnect : susu
+
+ 12/1/2023, 4:52:04 PM :: WebSocket server listening at port 9699
+
+ 12/1/2023, 4:52:04 PM :: Internal server is listening at PORT 19699
+
+ 12/1/2023, 4:52:53 PM :: New player join : ID - susu, Balance - 31405
+
+ 12/1/2023, 4:52:56 PM :: Client connected!
+
+ 12/1/2023, 4:52:56 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"HD330tc0rz"}}
+
+ 12/1/2023, 4:52:56 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 4:53:06 PM :: Player disconnect : susu
+
+ 12/1/2023, 4:53:33 PM :: New player join : ID - susu, Balance - 31405
+
+ 12/1/2023, 4:53:36 PM :: Client connected!
+
+ 12/1/2023, 4:53:36 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"jHp9PnS4GV"}}
+
+ 12/1/2023, 4:53:36 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 4:53:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:48 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:48 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:48 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:48 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:53:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 4:54:44 PM :: Player disconnect : susu
+
+ 12/1/2023, 4:59:08 PM :: New player join : ID - susu, Balance - 29705
+
+ 12/1/2023, 4:59:12 PM :: Client connected!
+
+ 12/1/2023, 4:59:12 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"K3QBAo0Oxt"}}
+
+ 12/1/2023, 4:59:12 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 4:59:38 PM :: Player disconnect : susu
+
+ 12/1/2023, 5:02:46 PM :: New player join : ID - susu, Balance - 29705
+
+ 12/1/2023, 5:05:18 PM :: WebSocket server listening at port 9699
+
+ 12/1/2023, 5:05:18 PM :: Internal server is listening at PORT 19699
+
+ 12/1/2023, 5:05:33 PM :: New player join : ID - susu, Balance - 29705
+
+ 12/1/2023, 5:05:45 PM :: Client connected!
+
+ 12/1/2023, 5:05:45 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"J0RDDKCg74"}}
+
+ 12/1/2023, 5:05:45 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:05:45 PM :: Player disconnect : susu
+
+ 12/1/2023, 5:06:25 PM :: New player join : ID - susu, Balance - 29705
+
+ 12/1/2023, 5:06:28 PM :: Client connected!
+
+ 12/1/2023, 5:06:28 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"eX3yOhYtVy"}}
+
+ 12/1/2023, 5:06:28 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:06:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:06:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:06:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:06:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:06:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:06:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:06:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:06:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:06:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:06:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:07:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:07:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:07:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:07:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:07:13 PM :: Player disconnect : susu
+
+ 12/1/2023, 5:09:00 PM :: New player join : ID - susu, Balance - 30705
+
+ 12/1/2023, 5:09:02 PM :: Client connected!
+
+ 12/1/2023, 5:09:02 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"epvAqMoHSA"}}
+
+ 12/1/2023, 5:09:02 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:09:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:09:07 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:09:07 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:09:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:09:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:09:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:09:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:09:18 PM :: Player disconnect : susu
+
+ 12/1/2023, 5:09:58 PM :: New player join : ID - susu, Balance - 30005
+
+ 12/1/2023, 5:10:01 PM :: Client connected!
+
+ 12/1/2023, 5:10:01 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"4VOwf2h0XY"}}
+
+ 12/1/2023, 5:10:01 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:10:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:10:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:10:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:10:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:10:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:10:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:10:28 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:10:32 PM :: Player disconnect : susu
+
+ 12/1/2023, 5:12:38 PM :: New player join : ID - susu, Balance - 30505
+
+ 12/1/2023, 5:12:41 PM :: Client connected!
+
+ 12/1/2023, 5:12:41 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"3KFTCHg7xB"}}
+
+ 12/1/2023, 5:12:41 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:12:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:12:45 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:12:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:12:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:12:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:12:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:12:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:12:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:12:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:12:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:12:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:12:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:12:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:23 PM :: Player disconnect : susu
+
+ 12/1/2023, 5:13:47 PM :: New player join : ID - susu, Balance - 29205
+
+ 12/1/2023, 5:13:49 PM :: Client connected!
+
+ 12/1/2023, 5:13:49 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"rRK8VFt3Ak"}}
+
+ 12/1/2023, 5:13:49 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:13:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":1}}
+
+ 12/1/2023, 5:13:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:13:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:14:01 PM :: Player disconnect : susu
+
+ 12/1/2023, 5:18:53 PM :: New player join : ID - susu, Balance - 27805
+
+ 12/1/2023, 5:18:57 PM :: Client connected!
+
+ 12/1/2023, 5:18:57 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"FkHfbOr7X9"}}
+
+ 12/1/2023, 5:18:57 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:19:04 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:19:04 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:19:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:19:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:19:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:19:07 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:19:07 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:19:07 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:19:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:19:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:19:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:19:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:19:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:19:10 PM :: Player disconnect : susu
+
+ 12/1/2023, 5:19:53 PM :: New player join : ID - susu, Balance - 26505
+
+ 12/1/2023, 5:19:56 PM :: Client connected!
+
+ 12/1/2023, 5:19:56 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"AhkxZ0QLct"}}
+
+ 12/1/2023, 5:19:56 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:20:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:01 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:01 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:01 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:04 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:04 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:04 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:04 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:20:07 PM :: Player disconnect : susu
+
+ 12/1/2023, 5:21:39 PM :: New player join : ID - susu, Balance - 24605
+
+ 12/1/2023, 5:21:42 PM :: Client connected!
+
+ 12/1/2023, 5:21:42 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"PSKcuKcJAl"}}
+
+ 12/1/2023, 5:21:42 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:21:48 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:48 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:48 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:48 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:21:58 PM :: Player disconnect : susu
+
+ 12/1/2023, 5:23:14 PM :: New player join : ID - susu, Balance - 26905
+
+ 12/1/2023, 5:23:17 PM :: Client connected!
+
+ 12/1/2023, 5:23:17 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"xrC13NfhIB"}}
+
+ 12/1/2023, 5:23:17 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:23:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:23:26 PM :: Player disconnect : susu
+
+ 12/1/2023, 5:24:03 PM :: New player join : ID - susu, Balance - 24805
+
+ 12/1/2023, 5:24:05 PM :: Client connected!
+
+ 12/1/2023, 5:24:05 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"uhuWKtgjvl"}}
+
+ 12/1/2023, 5:24:05 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:24:12 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:24:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:24:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:24:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:24:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:24:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:24:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:24:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:24:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:24:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:24:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:24:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:24:37 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/1/2023, 5:24:38 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:38 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:38 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:38 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:24:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/1/2023, 5:24:47 PM :: Player disconnect : susu
+
+ 12/1/2023, 5:25:52 PM :: New player join : ID - susu, Balance - 26305
+
+ 12/1/2023, 5:25:54 PM :: Client connected!
+
+ 12/1/2023, 5:25:54 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"nq5n3CA8iK"}}
+
+ 12/1/2023, 5:25:54 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:27:09 PM :: WebSocket server listening at port 9699
+
+ 12/1/2023, 5:27:09 PM :: Internal server is listening at PORT 19699
+
+ 12/1/2023, 5:27:23 PM :: WebSocket server listening at port 9699
+
+ 12/1/2023, 5:27:23 PM :: Internal server is listening at PORT 19699
+
+ 12/1/2023, 5:27:54 PM :: New player join : ID - susu, Balance - 26305
+
+ 12/1/2023, 5:28:14 PM :: WebSocket server listening at port 9699
+
+ 12/1/2023, 5:28:14 PM :: Internal server is listening at PORT 19699
+
+ 12/1/2023, 5:33:03 PM :: New player join : ID - susu, Balance - 26305
+
+ 12/1/2023, 5:33:06 PM :: Client connected!
+
+ 12/1/2023, 5:33:06 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"PNmOYZapGR"}}
+
+ 12/1/2023, 5:33:06 PM :: Handshake from client : [object Object]
+
+ 12/1/2023, 5:33:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:33:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:33:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:33:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:33:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:33:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:33:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:33:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:33:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:33:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:33:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/1/2023, 5:33:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/1/2023, 5:33:33 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/1/2023, 5:33:35 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/1/2023, 5:33:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/1/2023, 5:33:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/1/2023, 5:33:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/1/2023, 5:33:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/1/2023, 5:33:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/1/2023, 5:33:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/1/2023, 5:33:37 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/1/2023, 5:33:39 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/1/2023, 5:33:39 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/1/2023, 5:33:39 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/1/2023, 5:33:39 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/1/2023, 5:33:39 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/1/2023, 5:33:39 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/1/2023, 5:33:40 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/1/2023, 5:33:40 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/1/2023, 5:33:41 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":0}}
+
+ 12/1/2023, 5:33:42 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":0}}
+
+ 12/1/2023, 5:33:42 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":0}}
+
+ 12/1/2023, 5:33:42 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":0}}
+
+ 12/1/2023, 5:34:10 PM :: Player disconnect : susu
+
+ 12/7/2023, 2:12:47 PM :: WebSocket server listening at port 9699
+
+ 12/7/2023, 2:12:47 PM :: Internal server is listening at PORT 19699
+
+ 12/7/2023, 2:53:34 PM :: New player join : ID - susu, Balance - 97988.95
+
+ 12/7/2023, 2:59:23 PM :: WebSocket server listening at port 9699
+
+ 12/7/2023, 2:59:23 PM :: Internal server is listening at PORT 19699
+
+ 12/7/2023, 2:59:28 PM :: New player join : ID - susu, Balance - 97988.95
+
+ 12/7/2023, 2:59:39 PM :: Client connected!
+
+ 12/7/2023, 2:59:39 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"eucucF92hl"}}
+
+ 12/7/2023, 2:59:39 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 2:59:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 2:59:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:01 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:02 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:02 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:09 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:10 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:10 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:11 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:11 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:11 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:11 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:11 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:12 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:12 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:12 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:12 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:12 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:12 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:13 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:13 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:13 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:14 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:14 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:14 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":2}}
+
+ 12/7/2023, 3:00:15 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":0}}
+
+ 12/7/2023, 3:00:15 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":0}}
+
+ 12/7/2023, 3:00:15 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":0}}
+
+ 12/7/2023, 3:00:15 PM :: From Client : {"head":"bet","body":{"amount":10000,"index":0}}
+
+ 12/7/2023, 3:00:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:28 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:28 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:28 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:30 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:30 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:30 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:30 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:30 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:32 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:45 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:45 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:48 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:00:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":1}}
+
+ 12/7/2023, 3:00:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:00:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:02:18 PM :: Player disconnect : susu
+
+ 12/7/2023, 3:02:28 PM :: New player join : ID - susu, Balance - 9288.949999999997
+
+ 12/7/2023, 3:02:33 PM :: Client connected!
+
+ 12/7/2023, 3:02:34 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"zFIp4k38Aa"}}
+
+ 12/7/2023, 3:02:34 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 3:03:25 PM :: Player disconnect : susu
+
+ 12/7/2023, 3:05:18 PM :: New player join : ID - susu, Balance - 9288.949999999997
+
+ 12/7/2023, 3:05:22 PM :: Client connected!
+
+ 12/7/2023, 3:05:22 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"fcRTuIpRxq"}}
+
+ 12/7/2023, 3:05:22 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 3:05:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:43 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:43 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:43 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:43 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:05:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:05:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:05:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:05:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:05:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:05:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:05:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:06:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:06:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:06:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:06:32 PM :: Player disconnect : susu
+
+ 12/7/2023, 3:07:32 PM :: New player join : ID - susu, Balance - 9088.949999999997
+
+ 12/7/2023, 3:07:36 PM :: Client connected!
+
+ 12/7/2023, 3:07:36 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"nBUVqIq802"}}
+
+ 12/7/2023, 3:07:36 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 3:07:40 PM :: Player disconnect : susu
+
+ 12/7/2023, 3:08:07 PM :: New player join : ID - susu, Balance - 9088.949999999997
+
+ 12/7/2023, 3:08:10 PM :: Client connected!
+
+ 12/7/2023, 3:08:10 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"jc59tUsr8A"}}
+
+ 12/7/2023, 3:08:10 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 3:08:38 PM :: Player disconnect : susu
+
+ 12/7/2023, 3:09:20 PM :: New player join : ID - susu, Balance - 9088.949999999997
+
+ 12/7/2023, 3:09:24 PM :: Client connected!
+
+ 12/7/2023, 3:09:24 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"owFrFlO8qd"}}
+
+ 12/7/2023, 3:09:24 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 3:09:28 PM :: Player disconnect : susu
+
+ 12/7/2023, 3:09:53 PM :: New player join : ID - susu, Balance - 9088.949999999997
+
+ 12/7/2023, 3:09:56 PM :: Client connected!
+
+ 12/7/2023, 3:09:57 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"5giytkrohj"}}
+
+ 12/7/2023, 3:09:57 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 3:10:45 PM :: Player disconnect : susu
+
+ 12/7/2023, 3:13:29 PM :: New player join : ID - susu, Balance - 9373.949999999997
+
+ 12/7/2023, 3:13:33 PM :: Client connected!
+
+ 12/7/2023, 3:13:33 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"hj8qTN4L9c"}}
+
+ 12/7/2023, 3:13:33 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 3:13:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:13:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:04 PM :: Player disconnect : susu
+
+ 12/7/2023, 3:14:08 PM :: New player join : ID - susu, Balance - 11573.949999999997
+
+ 12/7/2023, 3:14:11 PM :: Client connected!
+
+ 12/7/2023, 3:14:11 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"gY73DLtMLg"}}
+
+ 12/7/2023, 3:14:11 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 3:14:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:28 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:28 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:28 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:28 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:28 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:28 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:29 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:30 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:30 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:43 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:43 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:43 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:43 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:43 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:45 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:45 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:45 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:45 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:45 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:46 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:47 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:14:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:14:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:01 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:01 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:01 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:01 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:01 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:15:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:38 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:38 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:38 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:42 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:15:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:16:00 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:16:00 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:16:00 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:16:00 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:16:00 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:16:00 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:16:01 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:16:01 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:16:11 PM :: Player disconnect : susu
+
+ 12/7/2023, 3:18:32 PM :: New player join : ID - susu, Balance - 10473.949999999997
+
+ 12/7/2023, 3:18:36 PM :: Client connected!
+
+ 12/7/2023, 3:18:36 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"F8mYKhOy4E"}}
+
+ 12/7/2023, 3:18:36 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 3:19:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:01 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:02 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:03 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:30 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:32 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:32 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:33 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:33 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:33 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:34 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:34 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:35 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:35 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:36 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:19:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:07 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:11 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:11 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:11 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:11 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:11 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:11 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:12 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:12 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:12 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:12 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:12 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:12 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:13 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:14 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:45 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:45 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:20:45 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:21:01 PM :: Player disconnect : susu
+
+ 12/7/2023, 3:22:05 PM :: WebSocket server listening at port 9699
+
+ 12/7/2023, 3:22:05 PM :: Internal server is listening at PORT 19699
+
+ 12/7/2023, 3:22:21 PM :: New player join : ID - susu, Balance - 730000000
+
+ 12/7/2023, 3:22:25 PM :: Client connected!
+
+ 12/7/2023, 3:22:25 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"ufCIUKFKWr"}}
+
+ 12/7/2023, 3:22:25 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 3:22:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:22:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:22:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:22:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:22:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:22:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:22:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:22:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:22:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":0}}
+
+ 12/7/2023, 3:22:42 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:42 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:42 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:43 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:43 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:43 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:43 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:49 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:49 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:49 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:49 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:50 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:50 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:50 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:50 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:50 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:51 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:51 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:51 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:51 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:51 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:52 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:52 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:52 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:52 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:52 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:52 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:53 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:53 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:53 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:53 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:53 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:54 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:54 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:54 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:54 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:54 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:54 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:55 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:55 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:55 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:55 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:55 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:56 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:56 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:56 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:56 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:56 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:57 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:57 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:57 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:57 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:57 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:57 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:58 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:58 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:58 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:58 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:58 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:59 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:59 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:59 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:59 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:59 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:22:59 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:23:00 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:23:00 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:23:00 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:23:00 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:23:00 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:23:01 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:23:01 PM :: From Client : {"head":"bet","body":{"amount":500,"index":0}}
+
+ 12/7/2023, 3:23:11 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":1}}
+
+ 12/7/2023, 3:23:12 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":1}}
+
+ 12/7/2023, 3:23:12 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":1}}
+
+ 12/7/2023, 3:23:12 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":1}}
+
+ 12/7/2023, 3:23:12 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":1}}
+
+ 12/7/2023, 3:23:12 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":1}}
+
+ 12/7/2023, 3:23:12 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:13 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:13 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:13 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:13 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:13 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:13 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:14 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:14 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:14 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:14 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:14 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:15 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:15 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:15 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:15 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:15 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:15 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:16 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:16 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:16 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:16 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:16 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:17 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:17 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:17 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:17 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:17 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:18 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:18 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:18 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:18 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:18 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:19 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:19 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:31 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:31 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:31 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:31 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:31 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:32 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:32 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:32 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:32 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:32 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:32 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:33 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:33 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:33 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:33 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:33 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:34 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:34 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:34 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:34 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:34 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:35 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:35 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:35 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:35 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:35 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:35 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:37 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:23:48 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:48 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:48 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:49 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:49 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:49 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:49 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:49 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:49 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:52 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:23:52 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:24:57 PM :: Player disconnect : susu
+
+ 12/7/2023, 3:32:26 PM :: New player join : ID - susu, Balance - 729911900
+
+ 12/7/2023, 3:32:31 PM :: Client connected!
+
+ 12/7/2023, 3:32:31 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"7ASvMr81jF"}}
+
+ 12/7/2023, 3:32:31 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 3:32:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":2}}
+
+ 12/7/2023, 3:32:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:52 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:52 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:52 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:52 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:52 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:53 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:53 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:53 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:53 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:53 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:53 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:54 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:54 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:54 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:54 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:54 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:54 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:55 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:55 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:55 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:55 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:55 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:56 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:56 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:56 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:56 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:56 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:56 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:57 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:57 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:57 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:57 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:32:57 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:33:08 PM :: Player disconnect : susu
+
+ 12/7/2023, 3:40:37 PM :: New player join : ID - susu, Balance - 492800
+
+ 12/7/2023, 3:40:41 PM :: Client connected!
+
+ 12/7/2023, 3:40:41 PM :: From Client : {"head":"handshake","body":{"id":"susu","passcode":"7hlvvvgqCh"}}
+
+ 12/7/2023, 3:40:41 PM :: Handshake from client : [object Object]
+
+ 12/7/2023, 3:40:45 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:46 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:46 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:46 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:46 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:46 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:46 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:47 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:47 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:47 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:47 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:47 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:47 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:48 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:48 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":1}}
+
+ 12/7/2023, 3:40:48 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":1}}
+
+ 12/7/2023, 3:40:48 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":1}}
+
+ 12/7/2023, 3:40:49 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":1}}
+
+ 12/7/2023, 3:40:49 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:49 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:49 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:50 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:40:51 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:02 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:02 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:02 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:02 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:02 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:03 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:03 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:03 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:03 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:03 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:03 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:04 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:04 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:04 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:04 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:04 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:05 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:05 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:05 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:05 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:05 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:05 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:06 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:06 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:06 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:06 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:06 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:07 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:07 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:07 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:07 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:07 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:07 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:08 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:08 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":2}}
+
+ 12/7/2023, 3:41:18 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:19 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:19 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:19 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:19 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:19 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:20 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:20 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:20 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:20 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:20 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:20 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:21 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:21 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:21 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:21 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:21 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:21 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:22 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:22 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:22 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:22 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:22 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:22 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:23 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:23 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:23 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:23 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:23 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:24 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:24 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:24 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:24 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:24 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":0}}
+
+ 12/7/2023, 3:41:35 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:36 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:37 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:37 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:37 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:37 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:37 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:38 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:38 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:38 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:38 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:38 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:39 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:39 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:39 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:39 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:39 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:39 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:40 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:40 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:40 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:40 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:40 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:40 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:41 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:41 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:41 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:41 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:41 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:41 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:42 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:42 PM :: From Client : {"head":"bet","body":{"amount":1000,"index":3}}
+
+ 12/7/2023, 3:41:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:41:59 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:00 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:15 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:16 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:17 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:18 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:19 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:28 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:31 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:32 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:32 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:32 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:32 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:32 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:32 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:33 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:33 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:33 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:33 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:33 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:33 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:34 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:34 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:34 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:34 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:34 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:34 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:49 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:50 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:51 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:52 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:53 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:54 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:55 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:56 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:57 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:42:58 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:07 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:07 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:07 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:08 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:09 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:10 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:11 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:11 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:11 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:11 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:12 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:23 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:24 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:25 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:26 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:27 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:28 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:43 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:43:44 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:05 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:06 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:20 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:21 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:22 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:39 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:40 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:41 PM :: From Client : {"head":"bet","body":{"amount":100,"index":3}}
+
+ 12/7/2023, 3:44:51 PM :: Player disconnect : susu
+
+ 12/7/2023, 4:02:18 PM :: WebSocket server listening at port 9699
+
+ 12/7/2023, 4:02:18 PM :: Internal server is listening at PORT 19699

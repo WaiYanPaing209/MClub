@@ -1,0 +1,120 @@
+<%- include("components/upper.ejs") %>
+<link
+  type="text/css"
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/alumuko/vanilla-datetimerange-picker@latest/dist/vanilla-datetimerange-picker.css"
+/>
+<main class="content">
+  <div class="container-fluid p-0">
+    <h1 class="h3 mb-3">Dashboard</h1>
+    <div class="d-flex justify-content-start align-items-center mb-1">
+      Start
+      <input
+        id="start"
+        type="date"
+        class="form-control mx-1"
+        placeholder="Start Date"
+        style="width: 150px"
+      />
+      End
+      <input
+        id="end"
+        type="date"
+        class="form-control mx-1"
+        placeholder="End Date"
+        style="width: 150px"
+      />
+      <button class="btn btn-primary" type="button" onclick="filter()">
+        <i class="bi bi-filter"></i>
+        Filter
+      </button>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="border shadow rounded p-4 mb-2">
+          <h3>User</h3>
+          <hr />
+          Filter: <span id="newUser"></span> <br />
+          Total: <span id="totalUser"></span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="border shadow rounded p-4 mb-2">
+          <h3>Commission</h3>
+          <hr />
+          Filter: <span id="newMainCommission"></span> <br />
+          Total: <span id="totalMainCommission"></span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="border shadow rounded p-4 mb-2">
+          <h3>Deposit</h3>
+          <hr />
+          Filter: <span id="newDeposit"></span> <br />
+          Total: <span id="totalDeposit"></span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="border shadow rounded p-4 mb-2">
+          <h3>Withdraw</h3>
+          <hr />
+          Filter: <span id="newWithdraw"></span> <br />
+          Total: <span id="totalWithdraw"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<script>
+  window.addEventListener("load", function (event) {
+    const today = new Date();
+    const startDate = new Date(today.getFullYear(), today.getMonth(), 1).getTime();
+    const endDate = new Date(today.getFullYear(), today.getMonth() + 1, 0).getTime();
+    fetchInfo(startDate, endDate);
+  });
+
+  function filter() {
+    const start = document.getElementById("start").value;
+    const end = document.getElementById("end").value;
+    const ds = new Date(start);
+    const de = new Date(end);
+    const s = ds.getTime();
+    const e = de.getTime();
+    fetchInfo(s, e);
+  }
+
+  function fetchInfo(start, end) {
+    fetch(`/dashboard/info?start=${start}&end=${end}`, {
+      method: "GET",
+      headers: {
+        Accept: "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((response) => {
+        for (const [key, value] of Object.entries(response)) {
+          document.getElementById(key).innerHTML = commaSep(value);
+        }
+      });
+  }
+
+  function getDate(t) {
+    var d = new Date(t),
+      month = "" + (d.getMonth() + 1),
+      day = "" + d.getDate(),
+      year = d.getFullYear();
+
+    if (month.length < 2) month = "0" + month;
+    if (day.length < 2) day = "0" + day;
+
+    return parseInt([year, month, day].join(""));
+  }
+
+  function commaSep(n) {
+    let x = parseInt(n);
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+</script>
+
+<%- include("components/lower.ejs") %>

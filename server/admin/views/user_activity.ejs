@@ -1,0 +1,57 @@
+<% function commaSep(n) { let x = parseInt(n); return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g,
+","); } %> <%- include("components/upper.ejs") %>
+<main class="content">
+  <div class="container-fluid p-0">
+    <h3>User Activity</h3>
+    <table class="table table-bordered mt-3 table-hover table-sm">
+      <tr>
+        <td style="max-width: 150px">Username</td>
+        <th><%= locals.user.username %></th>
+      </tr>
+      <tr>
+        <td style="max-width: 150px">Nickname</td>
+        <th><%= locals.user.nickname %></th>
+      </tr>
+      <tr>
+        <td style="max-width: 150px">Agent Code</td>
+        <th><%= locals.user.agentCode %></th>
+      </tr>
+      <tr>
+        <td style="max-width: 150px">Balance</td>
+        <th><%= locals.user.balance %></th>
+      </tr>
+    </table>
+    <div class="table-responsive">
+      <table class="table table-bordered mt-3 table-hover table-sm">
+        <tr>
+          <th>Time</th>
+          <th>Activity</th>
+          <th>Balance</th>
+        </tr>
+        <% for(const item of locals.arr) { %>
+        <tr>
+          <td><%= new Date(item.time).toLocaleString() %></td>
+          <td><%= item.message %></td>
+          <td><%= commaSep(item.balance) %></td>
+        </tr>
+        <% } %>
+      </table>
+      <div class="input-group justify-content-center mb-5">
+        <% if(locals.page != 0){ %>
+        <a class="btn btn-primary" href="?p=<%= locals.page-1 %>">Previous</a>
+        <% } %>
+        <span class="input-group-text"><%= locals.page+1 %></span>
+        <% if(locals.page < locals.lastPage){ %>
+        <a class="btn btn-primary" href="?p=<%= locals.page+1 %>">Next</a>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="/js/confirm-delete.js"></script>
+<script src="/js/post.js"></script>
+<script src="/js/super-prompt.js"></script>
+<script></script>
+
+<%- include("components/lower.ejs") %>

@@ -1,0 +1,58 @@
+<%
+function commaSep(n) {
+  let x = parseInt(n);
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+%>
+<%- include("components/upper.ejs") %> 
+<% const status = ['Waiting', 'Approved','Canceled']; %>
+
+<main class="content">
+  <div class="container-fluid p-0">
+    <h1 class="h3 mb-3">Deposit</h1>
+    <div class="table-responsive">
+      <table class="table table-bordered mt-3 table-hover table-sm">
+        <tr>
+          <th>Username</th>
+          <th>Amount</th>
+          <th>Time</th>
+        </tr>
+        <% locals.arr.forEach((item) => { %>
+        <tr>
+          <td><%= item.username %></td>
+          <td><%= commaSep(item.amount) %></td>
+          <td><%= new Date(item.time).toLocaleString() %></td>
+        </tr>
+        <% }); %>
+      </table>
+    </div>
+  </div>
+</main>
+
+<script src="/js/get2post.js"></script>
+<script src="/js/post.js"></script>
+<script src="/js/super-prompt.js"></script>
+<script>
+  function edit(item) {
+    superPrompt(
+      {
+        title: "Edit",
+        fields: [
+          {
+            label: "Amount",
+            name: "amount",
+            type: "text",
+            value: item.amount,
+          },
+        ],
+      },
+      (result) => {
+        result.req = "edit";
+        result._id = item._id;
+        post("", result);
+      }
+    );
+  }
+</script>
+
+<%- include("components/lower.ejs") %>

@@ -1,0 +1,14 @@
+
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+	<script>
+		setInterval(() => {
+			console.log("fetch");
+			fetch("/sessionActivate?username=<%= locals.session.username %>&sessionKey=<%= locals.session.key %>");
+		},10000);
+	</script>
+</body>
+
+</html>

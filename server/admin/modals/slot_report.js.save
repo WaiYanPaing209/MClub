@@ -1,0 +1,39 @@
+const express = require("express");
+const db = require("../db");
+const router = express.Router();
+
+router.get("/", (req, res) => {
+  const role = req.session.role;
+  res.render("slot_report", { role });
+});
+
+router.get("/info", async (req, res) => {
+  const startDate = parseInt(req.query.start);
+  const endDate = parseInt(req.query.end);
+
+  let respond = {};
+  let filter = {};
+  filter.time = { $gte: startDate, $lte: endDate };
+  filter.game = 'slot'
+
+
+  respond.totalBet = await db.selectTotal(
+    "play_log",
+    { ...filter, status: { $in: ['lose'] } },
+    "$amount"
+  );
+
+  respond.totalWon = await db.selectTotal(
+    "play_log",
+    { ...filter, status: { $in: ['win'] } },
+    "$amount"
+  );
+
+  const totalProfit = respond.totalBet - respond.totalWon;
+  respond.percentProfit = (4 / 100) * totalProfit;
+
+  res.json(respond);
+});
+
+
+module.exports = router;

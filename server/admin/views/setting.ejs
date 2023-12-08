@@ -1,0 +1,226 @@
+<%- include("components/upper.ejs") %>
+<main class="content">
+  <div class="container-fluid p-0">
+    <h2 class="mb-3">Setting</h2>
+    <hr />
+    <h4>ShanKoeMee</h4>
+    <% if(locals.skm){ %>
+    <form action="" method="post">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="mb-2">
+            Active <br />
+            <input class="form-check-input" type="checkbox" name="isActive"
+            value="1" <%= locals.skm.isActive ? "checked" : "" %> />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-2">
+            Enable Bot <br />
+            <input class="form-check-input" type="checkbox" name="autoBot" value="1" <%= locals.skm.autoBot ? "checked" : "" %> />
+          </div>
+        </div>
+        <div class="col-md-4">
+          Total bot for each room
+          <input type="number" name="botPerRoom" class="form-control mb-2" value="<%= locals.skm.botPerRoom %>" />
+        </div>
+        <div class="col-md-4">
+          Dealer turn count
+          <input type="number" name="dealerLimit" class="form-control mb-2" value="<%= locals.skm.dealerLimit %>" />
+        </div>
+        <div class="col-md-4">
+          Player Commission %
+          <input type="number" name="playerComission" class="form-control mb-2" value="<%= locals.skm.playerComission %>" />
+        </div>
+        <div class="col-md-4">
+          Dealer Commission %
+          <input type="number" name="dealerComission" class="form-control mb-2" value="<%= locals.skm.dealerComission %>" />
+        </div>
+        <div class="col-md-4">
+          Bot Mode
+          <select name="botMode" class="form-control mb-2">
+            <option value="0" <% if(locals.skm.botMode==0){ %>selected<% } %>>Normal</option>
+            <option value="1" <% if(locals.skm.botMode==1){ %>selected<% } %>>Sustain</option>
+            <option value="2" <% if(locals.skm.botMode==2){ %>selected<% } %>>Unfair</option>
+            <option value="3" <% if(locals.skm.botMode==3){ %>selected<% } %>>Beast</option>
+          </select>
+        </div>
+      </div>
+      <input type="hidden" name="head" value="skm" />
+      <input type="submit" name="submit" value="Update ShanKoeMee" class="btn btn-primary mb-1" />
+    </form>
+    <% } else { %>
+      <div class="text-danger">ShanKoeeMee Server Error!</div>
+    <% } %>
+    <hr />
+    <h4>BuGyee</h4>
+    <% if(locals.bugyee){ %>
+    <form action="" method="post">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="mb-2">
+            Active <br />
+            <input class="form-check-input" type="checkbox" name="isActive"
+            value="1" <%= locals.bugyee.isActive ? "checked" : "" %> />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-2">
+            Enable Bot <br />
+            <input class="form-check-input" type="checkbox" name="autoBot" value="1" <%= locals.bugyee.autoBot ? "checked" : "" %> />
+          </div>
+        </div>
+        <div class="col-md-4">
+          Total bot for each room
+          <input type="number" name="botPerRoom" class="form-control mb-2" value="<%= locals.bugyee.botPerRoom %>" />
+        </div>
+        <div class="col-md-4">
+          Commission %
+          <input type="number" name="playerCommission" class="form-control mb-2" value="<%= locals.bugyee.room.playerCommission %>" />
+        </div>
+        <div class="col-md-4">
+          Bot Mode
+          <select name="botMode" class="form-control mb-2">
+            <option value="0" <% if(locals.bugyee.room.botMode==0){ %>selected<% } %>>Normal</option>
+            <option value="1" <% if(locals.bugyee.room.botMode==1){ %>selected<% } %>>Sustain</option>
+            <option value="2" <% if(locals.bugyee.room.botMode==2){ %>selected<% } %>>Unfair</option>
+            <option value="3" <% if(locals.bugyee.room.botMode==3){ %>selected<% } %>>Beast</option>
+          </select>
+        </div>
+      </div>
+      <input type="hidden" name="head" value="bugyee" />
+      <input type="submit" name="submit" value="Update BuGyee" class="btn btn-primary mb-1" />
+    </form>
+    <% } else { %>
+      <div class="text-danger">Bugyee Server Error!</div>
+    <% } %>
+    <hr />
+    <h4>ShweShan</h4>
+    <% if(locals.shweshan){ %>
+    <form action="" method="post">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="mb-2">
+            Active <br />
+            <input class="form-check-input" type="checkbox" name="isActive"
+            value="1" <%= locals.shweshan.isActive ? "checked" : "" %> />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-2">
+            Enable Bot <br />
+            <input class="form-check-input" type="checkbox" name="autoBot" value="1" <%= locals.shweshan.autoBot ? "checked" : "" %> />
+          </div>
+        </div>
+        <div class="col-md-4">
+          Total bot for each room
+          <input type="number" name="botPerRoom" class="form-control mb-2" value="<%= locals.shweshan.botPerRoom %>" />
+        </div>
+        <div class="col-md-4">
+          Commission %
+          <input type="number" name="playerCommission" class="form-control mb-2" value="<%= locals.shweshan.room.playerCommission %>" />
+        </div>
+        <div class="col-md-4">
+          Bot Mode
+          <select name="botMode" class="form-control mb-2">
+            <option value="0" <% if(locals.shweshan.room.botMode==0){ %>selected<% } %>>Normal</option>
+            <option value="1" <% if(locals.shweshan.room.botMode==1){ %>selected<% } %>>Sustain</option>
+            <option value="2" <% if(locals.shweshan.room.botMode==2){ %>selected<% } %>>Unfair</option>
+            <option value="3" <% if(locals.shweshan.room.botMode==3){ %>selected<% } %>>Beast</option>
+          </select>
+        </div>
+      </div>
+      <input type="hidden" name="head" value="shweshan" />
+      <input type="submit" name="submit" value="Update ShweShan" class="btn btn-primary mb-1" />
+    </form>
+    <% } else { %>
+      <div class="text-danger">ShweShan Server Error!</div>
+    <% } %>
+    <hr>
+    <h4>Poker</h4>
+    <% if(locals.poker){ %>
+    <form action="" method="post">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="mb-2">
+            Active <br />
+            <input class="form-check-input" type="checkbox" name="isActive"
+            value="1" <%= locals.poker.isActive ? "checked" : "" %> />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-2">
+            Enable Bot <br />
+            <input class="form-check-input" type="checkbox" name="autoBot" value="1" <%= locals.poker.autoBot ? "checked" : "" %> />
+          </div>
+        </div>
+        <div class="col-md-4">
+          Total bot for each room
+          <input type="number" name="botPerRoom" class="form-control mb-2" value="<%= locals.poker.botPerRoom %>" />
+        </div>
+        <div class="col-md-4">
+          Commission %
+          <input type="number" name="commission" class="form-control mb-2" value="<%= locals.poker.commission %>" />
+        </div>
+        <div class="col-md-4">
+          Bot Mode
+          <select name="botMode" class="form-control mb-2">
+            <option value="0" <% if(locals.poker.botMode==0){ %>selected<% } %>>Normal</option>
+            <option value="1" <% if(locals.poker.botMode==1){ %>selected<% } %>>Sustain</option>
+            <option value="2" <% if(locals.poker.botMode==2){ %>selected<% } %>>Unfair</option>
+            <option value="3" <% if(locals.poker.botMode==3){ %>selected<% } %>>Beast</option>
+          </select>
+        </div>
+      </div>
+      <input type="hidden" name="head" value="poker" />
+      <input type="submit" name="submit" value="Update Poker" class="btn btn-primary mb-1" />
+    </form>
+    <% } else { %>
+      <div class="text-danger">Poker Server Error!</div>
+    <% } %>
+    <hr>
+    <h4>Private Room</h4>
+    <form action="" method="post">
+      <div class="row">
+        <div class="col-md-4">
+          Join Fee
+          <input type="number" name="joinFee" class="form-control mb-2" value="<%= locals.setting.privateJoinFee %>" />
+        </div>
+        <div class="col-md-4">
+          Create Fee
+          <input type="number" name="createFee" class="form-control mb-2" value="<%= locals.setting.privateCreateFee %>" />
+        </div>
+      </div>
+      <input type="hidden" name="head" value="private" />
+      <input type="submit" name="submit" value="Update Private Room Fee" class="btn btn-primary mb-1" />
+    </form>
+    <hr>
+    <h4>Reset Setting</h4>
+    <button class="btn btn-danger" onclick="reset()">Reset Database</button>
+  </div>
+</main>
+
+<script src="/js/post.js"></script>
+<script src="/js/super-prompt.js"></script>
+<script>
+  function reset(){
+    superPrompt(
+      {
+        title: "Reset Database",
+        fields: [
+          {
+            label: "Admin Password",
+            name: "password",
+            type: "password",
+          },
+        ],
+      },
+      (result) => {
+        result.head = "reset";
+        post("", result);
+      }
+    );
+  }
+</script>
+
+<%- include("components/lower.ejs") %>

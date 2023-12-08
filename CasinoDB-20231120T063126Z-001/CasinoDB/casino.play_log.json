@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "655a41cb088d5436674c9872"
+  },
+  "game": "-",
+  "level": "-",
+  "roomNo": "-",
+  "bet": "-",
+  "username": "susu",
+  "amount": 3000,
+  "status": "deposit",
+  "agentCode": "mgmg",
+  "balance": 3000,
+  "time": {
+    "$numberLong": "1700413899064"
+  }
+}]

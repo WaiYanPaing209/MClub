@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "655a41cb088d5436674c9873"
+  },
+  "time": {
+    "$numberLong": "1700413899068"
+  },
+  "username": "susu",
+  "amount": 3000,
+  "agentUser": "mgmg",
+  "agentCode": "mgmg",
+  "agentMaster": "main",
+  "agentBalance": 7000,
+  "userBalance": 3000
+}]

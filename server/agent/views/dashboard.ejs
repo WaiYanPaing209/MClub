@@ -1,0 +1,77 @@
+<%- include("components/upper.ejs") %>
+
+<main class="content">
+  <div class="container-fluid p-0">
+    <h1 class="h3 mb-3">Dashboard</h1>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="border shadow rounded p-4 mb-2">
+          <h3>User</h3>
+          <hr />
+          Filter: <span id="newUser"></span> <br />
+          Total: <span id="totalUser"></span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="border shadow rounded p-4 mb-2">
+          <h3>Deposit</h3>
+          <hr />
+          Filter: <span id="newDeposit"></span> <br />
+          Total: <span id="totalDeposit"></span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="border shadow rounded p-4 mb-2">
+          <h3>Withdraw</h3>
+          <hr />
+          Filter: <span id="newWithdraw"></span> <br />
+          Total: <span id="totalWithdraw"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+  function copyToClipboard() {
+    var copyTextarea = document.querySelector("#userRegUrl");
+    copyTextarea.focus();
+    copyTextarea.select();
+
+    try {
+      var successful = document.execCommand("copy");
+      var msg = successful ? "successful" : "unsuccessful";
+      console.log("Copying text command was " + msg);
+    } catch (err) {
+      console.log("Oops, unable to copy");
+    }
+  }
+
+  fetchInfo();
+  setInterval(() => {
+    fetchInfo();
+  }, 60000);
+
+  function fetchInfo() {
+    fetch("/dashboard/info", {
+      method: "GET",
+      headers: {
+        Accept: "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((response) => {
+        for (const [key, value] of Object.entries(response)) {
+          document.getElementById(key).innerHTML = commaSep(value);
+        }
+      });
+  }
+
+  function commaSep(n) {
+    let x = parseInt(n);
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+</script>
+
+<%- include("components/lower.ejs") %>
